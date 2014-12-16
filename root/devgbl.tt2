@@ -1,0 +1,102 @@
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SThompson Dev</a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+
+	<div id="header">
+		<h2>GblDB Dev test</h2>
+	</div>
+
+	<div id="content">
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>GBL Sample Search</h2>
+        </div>
+
+
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function clearAll(){
+        document.forms[0].reset();
+}
+</SCRIPT>
+
+<FORM action="[% c.uri_for('showsamples') %]" method="POST">
+<div id="SampleSearchSCode">
+
+Sample Code:
+<input type="text" name="sampCode" val="">
+</div>
+
+<div id="SampleSearchType">
+Sample type
+<input type="text" name="sampType" val="">
+</div>
+
+<div id="SampleSearchSourceTemp">
+Source temperature
+<input type="text" name="sourceTemp" val="">
+</div>
+
+<div id="SampleSearchCollector">
+Collector
+<input type="text" name="collector" val="">
+</div>
+
+<div id="SampleSearchCollectionSite">
+Collection site
+<input type="text" name="collSite" val="">
+</div>
+
+<div id="SampleSearchSubmitter">
+Submitter
+<input type="text" name="submitter" val="">
+</div>
+<div id="SampleSearchSubmit">
+<input type="button" value="Clear" onClick="clearAll()">
+
+<input type="submit" value="Search">
+</form>
+
+
+
+</div>
+
+
+
+
+      </div>
+
+      <hr>
+
+	</div>
+
+      <footer>
+        <p>S. Thompson 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+
+
+
+
+  
